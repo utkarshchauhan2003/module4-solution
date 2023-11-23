@@ -38,9 +38,9 @@ WARNING!!! WARNING!!!
     for (var i = 0; i<names.length; i++){
         // console.log(names[i].toLowerCase("j").charAt(0) == "j")
         if(names[i].toLowerCase("j").charAt(0) == "j"){
-            helloSpeaker.speak(names[i])
-        }else{
             byeSpeaker.speakWord(names[i])
+        }else{
+            helloSpeaker.speak(names[i])
         }
     }
 
